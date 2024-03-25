@@ -113,7 +113,7 @@ export async function getAllImages({
       secure: true,
     });
 
-    let expression = "folder=saas";
+    let expression = "folder=saasapp";
 
     if (searchQuery) {
       expression += ` AND ${searchQuery}`;
